@@ -12,8 +12,8 @@ public class FactorialTest {
 
 	public static void firstWay() {
 		int fact = 1;
-		int number = 1;
-		for (int i = 4; i > number; i--) {
+		int number = 4;
+		for (int i = number; i > 1; i--) {
 			fact = fact * i;
 		}
 		System.out.println("Factorial of " + number + " is: " + fact);
